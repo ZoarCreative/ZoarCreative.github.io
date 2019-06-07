@@ -30,8 +30,8 @@ $(document).on('ready', function () {
 	// 1. Background image as data attribut 
 	var list = $('.bg-img');
 	for (var i = 0; i < list.length; i++) {
-		var src = list[i].getAttribute('data-image-src');
-		list[i].style.backgroundImage = "url('" + src + "')";
+//		var src = list[i].getAttribute('data-image-src');
+//		list[i].style.backgroundImage = "url('" + src + "')";
 		list[i].style.backgroundRepeat = "no-repeat";
 		list[i].style.backgroundPosition = "center";
 		list[i].style.backgroundSize = "cover";
